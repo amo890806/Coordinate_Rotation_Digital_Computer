@@ -22,5 +22,5 @@ for i=1:iter
     z(i+1) = z(i) - d*atan(2^-(i-1));
 end
 
-cos_val = vpa(x(3)*2^16, 10)
-sin_val = vpa(y(3)*2^16, 10)
+cos_val = vpa(x(17), 10)
+sin_val = vpa(y(17), 10)
